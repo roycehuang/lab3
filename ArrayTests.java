@@ -13,7 +13,6 @@ public class ArrayTests {
   public void testReverseInPlace2(){
     int[] input2 = {1, 2};
     ArrayExamples.reverseInPlace(input2);
-    //assertArrayEquals(new int[]{2,2}, input2);
     assertArrayEquals(new int[]{2,1}, input2);
   }
 
